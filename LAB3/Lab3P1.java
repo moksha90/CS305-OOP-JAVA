@@ -9,7 +9,10 @@ class Lab3P1{
 		if ( i == 2) count++;
 		while(j<i){
 		
-		if(i%j == 0) break;
+		if(i%j == 0){
+		 count =0;
+		 break;
+		 }
 		else count++;
 		j++;
 		}
